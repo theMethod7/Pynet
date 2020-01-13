@@ -10,3 +10,4 @@ net_connect = ConnectHandler(
 )
 
 print(net_connect.find_prompt())
+print(net_connect.send_command("show version"))
